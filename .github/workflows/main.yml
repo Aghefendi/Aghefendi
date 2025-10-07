@@ -1,16 +1,17 @@
+
+
 name: Generate Snake Animation
 
 on:
-  # Her 6 saatte bir otomatik olarak çalıştır
   schedule:
     - cron: "0 */6 * * *"
-
-  # Manuel olarak çalıştırma imkanı sağlar (Actions tabından)
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:      # <--- BU SATIRI EKLEYİN
+      contents: write   # <--- BU SATIRI EKLEYİN
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -18,15 +19,11 @@ jobs:
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
-          # GitHub kullanıcı adınız. ${{ github.repository_owner }} otomatik olarak repo sahibini alır.
           github_user_name: ${{ github.repository_owner }}
-
-          # Oluşturulacak SVG dosyasının çıktı yolları
-          # Animasyonlu yılan SVG'si
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
+            
       - name: Push snake animation
         uses: crazy-max/ghaction-github-pages@v3
         with:
