@@ -1,5 +1,3 @@
-
-
 name: Generate Snake Animation
 
 on:
@@ -10,8 +8,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:      # <--- BU SATIRI EKLEYİN
-      contents: write   # <--- BU SATIRI EKLEYİN
+
+    #!!! ÖNEMLİ KISIM BURASI !!!
+    # Bu izinler, action'ın reponuza yazma (git push) yapabilmesi için gereklidir.
+    # Girintinin tam olarak bu şekilde olduğuna emin olun.
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
