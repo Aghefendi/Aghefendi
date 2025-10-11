@@ -40,11 +40,6 @@ A passionate **React Native Developer**, **Cybersecurity Enthusiast**, and **AI 
 
 ---
 
-## GIF
-
-![Happy Gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDhnbDMzdmw5cWdvajMyMTB3MXA1bjY5eWlxd29kcmhhaHl5cG9mayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BSx6mzbW1ew7K/giphy.gif)
-
----
 
 ## Connect with me
 
