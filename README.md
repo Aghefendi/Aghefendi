@@ -48,6 +48,10 @@ I build backend services and cloud-native applications with an emphasis on secur
 - Generative AI for Java and Spring Developers
 - Microservices Architecture: Design Patterns and Principles
 
+## GitHub Activity
+
+![Snake animation](https://raw.githubusercontent.com/Aghefendi/Aghefendi/output/github-contribution-grid-snake.svg)
+
 ## Connect
 
 - LinkedIn: https://www.linkedin.com/in/mehmetagahc
