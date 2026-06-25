@@ -54,5 +54,5 @@ I build backend services and cloud-native applications with an emphasis on secur
 
 ## Connect
 
-- LinkedIn: https://www.linkedin.com/in/mehmetagahc
+- LinkedIn: https://www.linkedin.com/in/mehmetagahcicek
 - Email: mailto:m.agahcicek@gmail.com
