@@ -1,4 +1,3 @@
-# Mehmet Agah Cicek
 
 Backend / Cloud Engineer focused on Java, Spring Boot, AWS, and production-ready systems.
 
